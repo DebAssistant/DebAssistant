@@ -17,6 +17,6 @@ To install download the exe and run it through command line. This will be placed
 To install the .deb run `dpkg -i debassistant-*.deb`
 
 ## Uninstall
-To uninstall remove the .EXE
+To uninstall remove the .EXE.
 
 To uninstall the .deb run `deb -r debassistant`

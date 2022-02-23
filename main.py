@@ -28,7 +28,7 @@ if args.setup:
     architecture = input("Architecture > ")
     maintainer = input("Maintainer > ")
     with open("debassistant.json", "w") as f:
-        f.write(json.dumps({"name": name, "version": version, "architecture": architecture, "debassistant": {"version": VERSION}}))
+        f.write(json.dumps({"name": name, "version": version, "architecture": architecture, "maintainer": maintainer, "debassistant": {"version": VERSION}}))
         f.close()
     #print(figlet_format("Done!"))
     print("Done!")
